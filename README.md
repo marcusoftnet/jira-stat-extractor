@@ -35,7 +35,7 @@ The script takes 3 required parameters
 | Parameter name | Description | Example |
 | :--- | :--- | :--- |
 | `-u/--username` | The username you have generated a token for. <br/> Typically this is your email address | `-u marcus.hammarberg@aaro.com` |
-| `-t/--token` | A token to access the API with. You can [easily generate one here]https://id.atlassian.com/manage-profile/security/api-tokens) | `-t WI34GH9W29843R892F92RH2` |
+| `-t/--token` | A token to access the API with. You can [easily generate one here](https://id.atlassian.com/manage-profile/security/api-tokens) | `-t WI34GH9W29843R892F92RH2` |
 | `-j/--jql` | A JQl query to get issues for. Note that your user needs to have access to things you are querying for; projects, filters etc. <br/> Supply the JQL statement in **double**quotes. You might need to change the quotes in your query to use single quotes. | `"filter = 'Filter for Team 418' and issuetype=Story and statuscategory=Done"` |
 
 There are also two optional parameters that you only need to supply if the default values are not useful
